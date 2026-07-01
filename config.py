@@ -1,0 +1,1 @@
+APP_TITLE = "AI Study Assistant"
