@@ -63,14 +63,23 @@ The application uses a Large Language Model (LLM) through the OpenRouter API to 
 ## 📂 Project Structure
 
 AI-Study-Mate
+
 │
+
 ├── assets/
+
 ├── app.py
+
 ├── config.py
+
 ├── llm.py
+
 ├── prompts.py
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .gitignore
 
 ## 🚀 Installation
@@ -88,8 +97,6 @@ streamlit run app.py
 ```
 
 ## 💡 Future Improvements
-
-## 🚀 Future Improvements
 
 - Export study plans to PDF
 - Save learning history
@@ -122,4 +129,5 @@ Applied Informatics student
 School 21 (Business Systems Analysis)
 
 Interested in Artificial Intelligence, Machine Learning and Data Science.
+
 📍 Moscow, Russia
