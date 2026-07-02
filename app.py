@@ -12,21 +12,23 @@ def main():
     st.title(APP_TITLE)
     st.markdown(
     """
-    Generate a personalized study plan with the help of AI.
+    ### Welcome! 👋
 
-    Choose your topic, current level and learning goal, then let the assistant create a structured roadmap for your learning.
+    AI Study Mate creates personalized study plans powered by Large Language Models.
+
+    Simply choose a topic, your current level, and your learning goal to receive a structured learning roadmap.
     """
-)
+    )
     st.write(
         "Generate a personalized learning plan with the help of Artificial Intelligence."
     )
     st.divider()
     topic = st.text_input(
-        "Enter a topic",
+        "📖 Study Topic",
         placeholder="For example: Machine Learning"
     )
     level = st.radio(
-        "Select your current level",
+        "🎯 Current Level",
         [
             "Beginner",
             "Intermediate",
@@ -34,7 +36,7 @@ def main():
         ]
     )
     goal = st.selectbox(
-        "Learning goal",
+        "🚀 Learning Goal",
         [
         "Learn from scratch",
         "Prepare for interview",
@@ -70,19 +72,36 @@ def main():
         st.header("About")
         st.write(
             """
-            AI Study Assistant helps students create structured learning plans using Large Language Models.
+            AI Study Mate helps students create structured learning plans using Large Language Models.
+            """
+        )
 
-            Technologies
-
+        st.header("Technologies")
+        st.write(
+            """
             • Python 3.13
 
             • Streamlit
-
+            
             • OpenRouter API
-
+            
             • Large Language Models (LLMs)
-
+            
             • Prompt Engineering
+            """
+        )
+
+        st.divider()
+
+        st.header("Author")
+
+        st.write(
+            """
+            Developed by Tatyana Zingalyuk
+
+            AI & Business Systems Analysis Student
+
+            School 21
             """
         )
         
